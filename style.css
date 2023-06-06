@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+:root {
+  --primary_color: #002684;
+  --secondary_color: #00a0df;
+  --theme_black_color: #303236;
+}
+
+body, * {
+  font-family: "CeraProLight", sans-serif;
+  font-size: 14px;
+  color: var(--theme_black_color);  
+}
+body {
+  padding-top: 3.6rem;
+}
+@font-face {
+  font-family: HelveticaBold;
+  src: url(./assets/fonts/helvetica/FreeSansBold.otf);
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(./assets/fonts/helvetica/FreeSans.otf);
+}
+@font-face {
+  font-family: CeraProBold;
+  src: url(./assets/fonts/cera-pro/CeraProBold.otf);
+}
+@font-face {
+  font-family: CeraProMedium;
+  src: url(./assets/fonts/cera-pro/CeraProMedium.otf);
+}
+@font-face {
+  font-family: CeraProLight;
+  src: url(./assets/fonts/cera-pro/CeraProLight.otf);
+}
+.navbar-brand {
+  font-family: "Helvetica", sans-serif;
+}
+.navbar-nav .nav-item .nav-link {
+  font-weight: 400;
+  color: #6a6d75;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.navbar-nav .nav-item .nav-link.active {
+  color: #0f346c;
+}
+.htz-splash .background-image-overlay {
+  max-height: 600px;
+  overflow: hidden;
+}
+.htz-splash .homepage-hero {
+  display: block;
+  width: 100%;
+}
+.htz-splash .top-container-txt {
+  top: 50%;
+  left: 100px;
+  transform: translateY(-50%);
+}
+.hero-title.hero-image-title {
+  font-family: "HelveticaBold", sans-serif;
+  font-size: 40px;
+  max-width: 388px;
+  text-transform: capitalize;
+  color: var(--primary_color);
+}
+.htz-splash .top-container-txt .get-cooking-btn {
+  font-size: 16px;
+  padding: 0 30px;
+  height: 42px;
+  margin-top: 37px;
+  line-height: 36px;
+  border-radius: 25px;
+  background-color: var(--primary_color);
+  letter-spacing: 2.5px;
+  color: white;
+  font-family: "CeraProMedium", sans-serif;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.sectionTitlez {
+  font-family: "HelveticaBold", sans-serif;
+  color: var(--primary_color);
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
